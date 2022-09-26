@@ -7,7 +7,7 @@ const Home = () => {
     <div name="Home" className='h-screen w-full'>
       <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
           <div>
-              <img src={lost} height={500} width={500}/>
+              <img src={lost} height={500} width={500} alt="lost"/>
           </div>
           <div className='text-4xl ml-10'>
             <h1 className='font-bold'>Hello,</h1>

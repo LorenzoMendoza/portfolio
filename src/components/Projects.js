@@ -2,7 +2,6 @@ import React from 'react'
 import LiveChat from '../assets/projects/LiveChat.png'
 import Tracker from '../assets/projects/Tracker.png'
 import Marketplace from '../assets/projects/marketplace.png'
-import { Link } from 'react-router'
 
 
 const Projects = () => {
@@ -39,7 +38,7 @@ const Projects = () => {
             {projects.map(({id, src, title,href}) =>(
                 <div key={1} className='shadow-lg'>
                     <div className='flex text-xl items-center justify-center font-bold border-b-2'> {title}</div>
-                    <img src={src}/>
+                    <img src={src} alt="img"/>
                     <div className='flex items-center justify-center w-full'>
                         <button><a href={href}>View Code</a></button>
                     </div>

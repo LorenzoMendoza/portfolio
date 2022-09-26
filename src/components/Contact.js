@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './Navbar'
+// import Navbar from './Navbar'
 import email from '../assets/email.svg'
 
 const Contact = () => {
@@ -18,7 +18,7 @@ const Contact = () => {
                   <textarea rows="10" placeholder="Message" className="border-2 py-2 px-2"/>
                   <button className='text-sm bg-indigo-500 hover:bg-purple-400 text-white font-bold py-1 px-4 rounded my-8'>Send</button>
               </form>
-              <img src={email} height={375} width={375}></img>
+              <img src={email} height={375} width={375} alt="contact-image"></img>
             </div>
         </div>
     </div>
