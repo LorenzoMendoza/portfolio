@@ -38,7 +38,7 @@ const Projects = () => {
             {projects.map(({id, src, title,href}) =>(
                 <div key={1} className='shadow-lg'>
                     <div className='flex text-xl items-center justify-center font-bold border-b-2'> {title}</div>
-                    <img src={src} alt="img"/>
+                    <img src={src} alt="pic"/>
                     <div className='flex items-center justify-center w-full'>
                         <button><a href={href}>View Code</a></button>
                     </div>
