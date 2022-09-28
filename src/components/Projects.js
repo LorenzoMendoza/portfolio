@@ -25,7 +25,7 @@ const Projects = () => {
         },
     ]
   return (
-    <div name="Projects" className='w-full md:h-screen'>
+    <div name="Projects" className='w-full md:h-screen mb-20'>
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
             <div>
                 <h1 className='text-5xl'>Portfolio</h1>
