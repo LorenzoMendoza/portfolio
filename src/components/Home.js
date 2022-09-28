@@ -18,7 +18,7 @@ const Home = () => {
                 My work
                 </Link>
                 <button class=" text-sm bg-indigo-500 hover:bg-purple-400 text-white font-bold py-1 px-4 rounded">
-                 My Resume
+                 <a href='/Lorenzo Mendoza 2022.pdf' download={true}>My Resume</a>
                 </button>
               </div>
           </div>

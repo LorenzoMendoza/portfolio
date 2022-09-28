@@ -23,7 +23,7 @@ const Navbar = () => {
     ]
 
     const styles = {
-            navlist: `flex item-center mt-4 mr-10 justify-between`,
+            navlist: `flex item-center mt-4 mr-12 justify-between`,
             navitem: `px-4 cursor-pointer capitalize font-medium hover:scale-105 duration-200`
         }
     

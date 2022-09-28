@@ -12,10 +12,10 @@ const Contact = () => {
                 <p className='py-5'>Send me an Email</p>
             </div>
             <div className='flex flex-col md:flex-row'>
-              <form className="flex flex-col w-96 mr-auto">
+              <form action="https://getform.io/f/e5b026fc-0c5b-4d1f-a2d6-a18d781879cc" method='POST' className="flex flex-col w-96 mr-auto">
                   <input type="text" name="name" placeholder="Enter your name" className="border-2 py-2 px-2"/>
                   <input type="email" name="email" placeholder="Enter your email" className="border-2 py-2 px-2 my-4"/>
-                  <textarea rows="10" placeholder="Message" className="border-2 py-2 px-2"/>
+                  <textarea rows="10" placeholder="Message" name="message" className="border-2 py-2 px-2"/>
                   <button className='text-sm bg-indigo-500 hover:bg-purple-400 text-white font-bold py-1 px-4 rounded my-8'>Send</button>
               </form>
               <img src={email} height={375} width={375} alt="contact"></img>

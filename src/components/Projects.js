@@ -10,7 +10,8 @@ const Projects = () => {
         {
             id: 1,
             src: LiveChat,
-            title: "Socket IO Live Chat"
+            title: "Socket IO Live Chat",
+            href: "https://github.com/LorenzoMendoza/react-node-chat"
         },
         {
             id: 2,
@@ -21,7 +22,8 @@ const Projects = () => {
         {
             id: 3,
             src: Marketplace,
-            title: "Crypto Price Tracker",
+            title: "NFT Marketplace",
+            href: "https://github.com/LorenzoMendoza/NFT-Marketplace/tree/main/src"
         },
     ]
   return (
